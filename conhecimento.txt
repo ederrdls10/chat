@@ -1,0 +1,3 @@
+1 - Qaundo se utiliza express.static, você define uma rota para seus arquivos staticos e para acessa-los a rota deve começar após a rota que já foi configurada pelo express.static
+
+2 - Quando estamos trabalhando com socket.io precisamos definir o server utilizando const server = require('http').createServer(app), e para colocar o server para rodar, ao invés de utilizar app.liste, utilizasse server.liste
